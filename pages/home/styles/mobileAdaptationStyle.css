@@ -1,0 +1,293 @@
+@media screen and (max-width: 975px) {
+    .container {
+       padding: 10px 10px;
+       margin-bottom: 30px;
+    }
+
+    .content{
+        overflow: hidden;
+    }
+
+    .topLinks{
+        display: none;
+    }
+
+    .bottomLinks{
+        display: none;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .logoImg{
+        width: 76px;
+        height: 94px;
+    }
+
+    .logoTitle{
+        width: 246px;
+        height: 96px;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin: 0;
+        margin-top: -30px;
+    }
+
+    .mobileNavbarBlock{
+        display: block;
+        position: fixed;
+        left: 0;
+        top: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #3232F0;
+        z-index: 1000;
+        transition: 1s;
+    }
+
+    .socialLinks{
+        gap: 20px;
+    }
+
+    .mobileNavbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+        gap: 5px;
+        padding: 125px 10px;
+    }
+
+    .mobileNavbarOpen{
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    .mobileNavbarClose{
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        z-index: 999;
+    }
+
+    .socialIconRutube,.socialIconZen,.socialIconOdnoklassniki,.socialIconTelegram,.socialIconTelegram,.socialIconVk{
+        width: 34px;
+        height: 34px;
+    }
+
+    .continuationImgBlockMobile{
+        width: 34px;
+        height: 34px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .continuationImgMobile {
+        width: 17px;
+    }
+
+    .mobileBody{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .closingStripMobileNavbar{
+        width: 100%;
+        height: 2px;
+        background-color: #FFFFFF;
+        margin-top: 5px;
+    }
+
+    .mobileTitle{
+        font-size: 40px;
+        color: #FFFFFF;
+        font-family: 'CoolveticaRg';
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .searchMobile{
+            margin-top: -5px;
+        }
+    }
+
+    .mobileFooter{
+        width: calc(100% - 20px);
+        position: absolute;
+        top: calc(100% - 40px);
+    }
+
+    .seperationLinks{
+        margin-top: 10px;
+    }
+
+    .section-1{
+        flex-direction: column;
+    }
+
+    .homeMainImgBlock{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .homeMainImg{
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .homeMainImgTopRight{
+        background-color: #3232F0;
+        width: 255px;
+        height: 255px;
+        margin: 0;
+        margin-top: -30px;
+    }
+
+    .bimKab2TopRightTitleArrow{
+        width: 50px;
+    }
+
+    .homeMainImgTopRightTitle{
+        margin-top: 15px;
+    }
+
+    .homeMainImgTopRightTopTitle,.homeMainImgTopRightBottomTitle{
+        font-size: 40px;
+        line-height: 38px;
+    }
+
+    .homeMainImgBottomRight{
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        margin-left: calc(100% - 200px);
+        margin-bottom: 20px;
+    }
+
+    .homeMainImgBottomRightTopTitle{
+        font-size: 16px;
+        line-height: 16px;
+        max-width: 132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .newsAll{
+        width: 100%;
+    }
+
+    .newsBody {
+        display: flex;
+        white-space: wrap;
+
+        br {
+            display: none;
+        }
+    }
+
+
+    .continuationNews{
+        width: 100%;
+        justify-content: flex-end;
+        gap: 10px;
+        margin: 0;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    .continuationNewsTitle{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .continuationImgBlock{
+        min-width: 30px;
+        min-height: 30px;
+        max-width: 30px;
+        max-height: 30px;
+
+        #continuationImg {
+            min-width: 16px;
+            min-height: 16px;
+            max-width: 16px;
+            max-height: 16px;
+        }
+    
+    }
+
+    .variant{
+        .continuationImgBlock{
+            display: none;
+        }
+    }
+
+    .variantBody{
+        justify-content: center;
+    }
+
+    .variantNumber{
+        display: none;
+    }
+
+    .variantTitle{
+        gap: 10px;
+        min-width: 400px;
+    }
+
+    #variantModels{
+        margin-left: 10px;
+    }
+
+    #variantAudit{
+        margin-left: 10px;
+    }
+
+    .variantHeading{
+        font-size: 40px;
+    }
+
+    .variantSubtitle{
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 3px;
+    }
+
+    .section-3{
+        display: none;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footerSeperation{
+        width: 100%;
+        margin: 0;
+    }
+
+    .footerTitle{
+        display: none;
+    }
+
+
+}

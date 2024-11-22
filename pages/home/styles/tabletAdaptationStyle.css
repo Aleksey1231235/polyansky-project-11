@@ -1,0 +1,333 @@
+@media (min-width: 975px) and (max-width: 1225px) {
+    @media screen and (max-width: 1225px){
+        .bottomLinks{
+            width: calc(100% - 248px);
+        }
+    }
+
+    .container {
+        padding: 0px 20px;
+        margin-bottom: 40px;
+    }
+
+    
+    .content{
+        overflow: hidden;
+    }
+
+    .news:active{
+        .newsTitle{
+            color: #3232F0;
+        }
+        
+        .newsBody{
+            opacity: 0.7;
+        }
+    }
+    
+    .continuationNews:active{
+        .continuationNewsTitle{
+            color: #3232F0;
+        }
+    
+        .continuationImgBlock{
+            background-color: #1F2772;
+        }
+    }
+    
+    .personalAccountLinkTop:active{
+        opacity: 0.7;
+    }
+    
+    .eyeLinkTop:active{
+        opacity: 0.7;
+    }
+    
+    .searchLinkTop:active{
+        opacity: 0.7;
+    }
+    
+    .bottomLink:active{
+        color: #3232F0;
+    }
+    
+    .footerTS:active{
+        color: #3232F0;
+    }
+    
+    .socialIconRutube,.socialIconZen,.socialIconOdnoklassniki,.socialIconTelegram,.socialIconTelegram,.socialIconVk{
+        width: 24px;
+        height: 24px;
+    }
+
+    .socialIconRutube:active{
+        content: url('../../../assets/images/header/socialIkons/blue/rutubeIconBlue.png');
+        width: 24px;
+        height: 24px;
+    }
+    
+    .socialIconZen:active{
+        content: url('../../../assets/images/header/socialIkons/blue/zenIconBlue.png');
+        width: 24px;
+        height: 24px;
+    }
+    
+    .socialIconOdnoklassniki:active{
+        content: url('../../../assets/images/header/socialIkons/blue/odnoklassnikiIconBlue.png');
+        width: 24px;
+        height: 24px;
+    }
+    
+    .socialIconTelegram:active{
+        content: url('../../../assets/images/header/socialIkons/blue/telegramIconBlue.png');
+        width: 24px;
+        height: 24px;
+    }
+    
+    .socialIconVk:active{
+        content: url('../../../assets/images/header/socialIkons/blue/vkIconBlue.png');
+        width: 24px;
+        height: 24px;
+    }
+    
+    .variant:active{
+        background-color: #3232F0;
+    
+        .variantNumber{
+            color: #FFFFFF;
+        }
+    
+        .variantTitle{
+            color: #FFFFFF;
+        }
+        
+        .continuationImgBlock{
+            background-color: #FFFFFF;
+        }
+    
+        .continuationImg{
+            content: url('../../../assets/images/home/arrowContinuationBlue.png');
+            margin-bottom: 8px;
+            margin-right: 3px;
+        }
+    }
+    
+    .navbar{
+        font-size: 18px;
+        margin-left: -20px;
+    }
+
+    .logoImg{
+        width: 70px;
+        height: 90px;
+    }
+
+    .logoTitle{
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: 50px;
+    }
+
+    .homeMainImg{
+        max-width: 860px;
+        height: 540px;
+    }
+
+    .homeMainImgTopRight{
+        width: 280px;
+        height: 280px;
+    }
+
+    .homeMainImgTopRightTitle{
+        font-size: 48px;
+    }
+
+    .homeMainImgTopRightTopTitle,.homeMainImgTopRightBottomTitle{
+        line-height: 50px;
+    }
+
+    .homeMainImgTopRight{
+        margin-top: -530px;
+        margin-left: calc(100% - 295px);
+    }   
+
+    .section-1 {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .homeMainImgBottomRight{
+        width: 150px;
+        height: 150px;
+    }
+
+    .newsAll{
+        gap: 0px;
+        margin-top: 10px;
+    }
+
+    .news{
+        height: 85px;
+        margin-top: -15px;
+    }
+
+    .newsTitle{
+        font-size: 18px;
+    }
+
+    .newsBody{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .continuationNews{
+        gap: 15px;
+    }
+
+    .continuationNewsBlock{
+        margin-top: -5px;
+    }
+
+    .continuationNews{
+        padding: 5px;
+        margin-left: 70px;
+    }
+
+    .footer{
+        margin-top: 45px;
+    }
+
+    .footerSeperation{
+        width: calc(100% - 300px);
+        margin-left: 300px;
+    }
+
+    .footerTitle{
+        margin-left: -115px;
+    }
+
+    @media screen and (max-width: 975px){
+        .footerTS{
+            margin-left: 100px;
+        }
+    }
+
+    @media screen and (max-width: 915px){
+        .footerTS{
+            margin-left: 30px;
+        }
+    }
+
+    @media screen and (max-width: 850px){
+        .footerTS{
+            margin-left: 10px;
+        }
+    }
+
+    @media screen and (max-width: 825px){
+        .footerTS{
+            width: 50px;
+            white-space: wrap;
+            margin-left: 40px;
+        }
+
+    }
+
+    .homeMainImgBottomRight{
+        margin-top: 80px;
+        margin-left: calc(100% - 165px);
+    }
+
+    .homeMainImgBottomRightTopTitle{
+        font-size: 15px;
+    }
+
+    .homeMainImgBottomRightTopTitle{
+        max-width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+
+    .homeMainImgBottomRightDate{
+        margin-left: 10px;
+    }
+
+    .variantBody{
+        font-size: 60px;
+    }
+
+    .variantTitle{
+        min-width: 500px;
+    }
+
+    .variantSubtitle{
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 3px;
+    }
+
+    #variantExpertise{
+        margin-left: 20px;
+    }
+
+    #variantPricing{
+        margin-left: 20px;
+    }
+
+    #variantModels{
+        margin-left: 2px;
+    }
+
+    .continuationImgBlock{
+        min-width: 32px;
+        min-height: 32px;
+        max-width: 32px;
+        max-height: 32px;
+    }
+
+    .continuatioImg {
+        min-width: 16px;
+        min-height: 16px;
+        max-width: 16px;
+        max-height: 16px;
+    }
+
+    .seperationLinks{
+        margin-top: 10px;
+    }
+
+    .bottomLinks{
+        margin-top: 10px;
+    }
+
+    .navbar{
+        margin-top: 41px;
+        margin-left: -60px;
+        font-size: 18px;
+    }
+
+
+    .variantTitle{
+        gap: 15px;
+    }
+
+    .partner{
+        min-width: 120px;
+        min-height: 120px;
+    }
+
+    .topLinks{
+        width: calc(100% - 25px);
+    }
+
+    .partnerImg{
+        margin-top: -23px;
+    }
+
+    .partnerTitle{
+        bottom: 3px;
+    }
+}

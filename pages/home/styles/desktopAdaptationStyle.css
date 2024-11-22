@@ -1,0 +1,189 @@
+@media screen and (min-width: 1225px) {
+    @media screen and (max-width: 1895px) {
+        .bottomLinks{
+            width: calc(70% + 19px);
+        }
+    }
+
+    @media screen and (max-width: 1885px) {
+        .bottomLinks{
+            width: calc(70% + 16px);
+        }
+    }
+
+    @media screen and (max-width: 1875px) {
+        .bottomLinks{
+            width: calc(70% + 14px);
+        }
+    }
+
+    @media screen and (max-width: 1870px) {
+        .bottomLinks{
+            width: calc(70% + 12px);
+        }
+    }
+
+    @media screen and (max-width: 1865px) {
+        .bottomLinks{
+            width: calc(70% + 10px);
+        }
+    }
+
+    @media screen and (max-width: 1855px) {
+        .bottomLinks{
+            width: calc(70% + 8px);
+        }
+    }
+
+    @media screen and (max-width: 1850px) {
+        .bottomLinks{
+            width: calc(70% + 26px);
+        }
+    }
+
+    @media screen and (max-width: 1775px) {
+        .bottomLinks{
+            width: calc(70% + 24px);
+        }
+    }
+
+    @media screen and (max-width: 1755px) {
+        .bottomLinks{
+            width: calc(70% + 20px);
+        }
+    }
+
+    @media screen and (max-width: 1690px) {
+        .bottomLinks{
+            width: calc(100% - 336px);
+        }
+    }
+    
+    .container {
+        padding: 40px 140px;
+    }
+        
+    .content{
+        overflow: hidden;
+    }
+    
+    .homeMainImg{
+        max-width: 1500px;
+    }
+    
+    .variantTitle{
+        min-width: 770px;
+    }
+    
+    .partner{
+        min-width: 140px;
+        min-height: 140px;
+    }
+    
+    .news:hover{
+        .newsTitle{
+            color: #3232F0;
+        }
+            
+        .newsBody{
+            opacity: 0.7;
+        }
+    }
+        
+    .continuationNews:hover{
+        .continuationNewsTitle{
+            color: #3232F0;
+        }
+        
+        .continuationImgBlock{
+            background-color: #1F2772;
+        }
+    }
+        
+    .personalAccountLinkTop:hover{
+        opacity: 0.7;
+    }
+        
+    .eyeLinkTop:hover{
+        opacity: 0.7;
+    }
+        
+    .searchLinkTop:hover{
+        opacity: 0.7;
+    }
+        
+    .bottomLink:hover{
+        color: #3232F0;
+    }
+        
+    .footerTS:hover{
+        color: #3232F0;
+    }
+        
+    .socialIconRutube,.socialIconZen,.socialIconOdnoklassniki,.socialIconTelegram,.socialIconTelegram,.socialIconVk{
+        width: 34px;
+        height: 34px;
+    }
+    
+    .socialIconRutube:hover{
+        content: url('../../../assets/images/header/socialIkons/blue/rutubeIconBlue.png');
+        width: 34px;
+        height: 34px;
+    }
+        
+    .socialIconZen:hover{
+        content: url('../../../assets/images/header/socialIkons/blue/zenIconBlue.png');
+        width: 34px;
+        height: 34px;
+    }
+        
+    .socialIconOdnoklassniki:hover{
+        content: url('../../../assets/images/header/socialIkons/blue/odnoklassnikiIconBlue.png');
+        width: 34px;
+        height: 34px;
+    }
+        
+    .socialIconTelegram:hover{
+        content: url('../../../assets/images/header/socialIkons/blue/telegramIconBlue.png');
+        width: 34px;
+        height: 34px;
+    }
+        
+    .socialIconVk:hover{
+        content: url('../../../assets/images/header/socialIkons/blue/vkIconBlue.png');
+        width: 34px;
+        height: 34px;
+    }
+        
+    .variant:hover{
+        background-color: #3232F0;
+        
+        .variantNumber{
+            color: #FFFFFF;
+        }
+        
+        .variantTitle{
+            color: #FFFFFF;
+        }
+            
+        .continuationImgBlock{
+            background-color: #FFFFFF;
+        }
+        
+        .continuationImg{
+            content: url('../../../assets/images/home/arrowContinuationBlue.png');
+            margin-bottom: 8px;
+            margin-right: 3px;
+        }
+    }
+    
+    .partnerImg{
+        margin-top: -40px;
+    }
+}
+    
+@media screen and (max-width: 1850px) {
+    .container{
+        padding: 40px 40px;
+    }
+}
